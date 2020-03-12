@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import "intersection-observer";
+import scrollama from "scrollama";
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
